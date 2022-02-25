@@ -8,21 +8,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="main">
+        <div class="header">
+            <h1>Conversor de Temperatura</h1>
+            
+        </div>
+        <div class="body">
+            <div class="radios">
+                <input type="radio" class="radio" name="radtemp" id="kelvin"><label for="kelvin">Kelvin</label>
+            <input type="radio" class="radio" name="radtemp" id="farenheit"><label for="farenheit">Farenheit</label>
+            </div>
+            <div class="user">
+                <input type="number" class="text" placeholder="Escreva um valor em Celsius">
+                
+                <input type="submit" name="" id="btn" > 
+            </div>
+        </div>
+        <div class="footer"> 
+            <h2 class="resposta"></h2>
+        </div>    
 
-    <div class="header">
-        <h1>Conversor de Temperatura</h1>
-        <input type="radio" class="radio" name="radtemp" id="kelvin"><label for="kelvin">Kelvin</label>
-        <input type="radio" class="radio" name="radtemp" id="farenheit"><label for="farenheit">Farenheit</label>
-        <input type="number" class="text">
-        <input type="submit" name="" id="btn" > 
-        <h2 class="resposta">Escreva um valor em Celsius</h2>
     </div>
-    <div class="body">
-
-    </div>
-    <div class="footer"> 
-
-    </div>    
     <script src="index.js"></script>
 </body>
 </html>
